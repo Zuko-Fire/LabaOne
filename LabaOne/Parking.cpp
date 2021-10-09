@@ -27,7 +27,7 @@ void Parking::add()
 		Car car1(number, mark, color);
 		car1.park();
 		cars.push_back(car1);
-		
+		cout << "Новая машина внесена в базу данныйх и припаркована" << endl;
 	}
 	else
 	{
