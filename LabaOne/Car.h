@@ -17,6 +17,7 @@ public:Car(string number, string mark, string color);
       string getColor();
       bool getIsParked();
 };
+
 #define UNTITLED_CAR_H
 
 

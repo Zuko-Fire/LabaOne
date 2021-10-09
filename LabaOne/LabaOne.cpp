@@ -4,8 +4,10 @@
 #include <string>
 #include "Car.h"
 #include"Parking.h"
+//#include<Vld.h>
 using namespace std;
 int main() {
+    system("chcp 1251");
     setlocale(LC_ALL, "rus");
     SetConsoleCP(1251);
     Parking parking;
